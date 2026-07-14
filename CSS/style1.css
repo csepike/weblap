@@ -1,0 +1,51 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: #fcc9b9;
+}
+h2 {
+   color: #fbb1bd; 
+   text-align: center;
+}
+#fooldal {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/driftmount.jpg");
+    background-size: cover;
+}
+.autoskult {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
+#kepszovegelso, #kepszovegmasodik, #kepszovegharmadik {
+    color: #ffd700;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+.egyesito{
+    display: flex;
+}
+.baloldal{
+    margin-left: 400px;
+    background-color: rgba(0,0,0,0.25);
+    margin-right: 20px;
+    padding: 7px;
+    border-radius: 12px;
+}
+.baloldal div{
+    margin-bottom: 180px;
+}
+.jobboldal{
+    margin-right: 400px;
+    margin-left: 20px;
+}
+.jobboldal a img{
+    padding-bottom: 45px;
+}

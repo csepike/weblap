@@ -1,0 +1,50 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content:center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+h1{
+    text-align: center;
+    color: #fbb1bd;
+    text-shadow: rgba(0,0,0,0.5) 1px 1px;
+}
+.doboz {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .kartya {
+    text-align: center;
+    width: 190px;
+    justify-content: center;
+  }
+  
+  .kartya img {
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    object-fit:contain;
+  }
+  
+  .kartya p {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #fbb1bd;
+    justify-content: center;
+    text-align: center;
+    text-shadow: rgba(0,0,0,0.5) 1px 1px;
+  }
+  body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/driftmountain.jpg");
+    background-size: cover;  
+  }
+ button{
+  padding: 5px;
+ }

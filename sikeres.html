@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minden gyártó legsikeresebb autói</title>
+    <link rel="stylesheet" href="CSS/style3.css">
+</head>
+<body>
+    <header>
+        <h1>Minden gyártó legsikeresebb autói</h1>
+        <nav>
+            <ul>
+              <li><a href="Főoldal.html">Kezdőlap</a></li>
+              <li><a href="piac.html">Autópiac uralkodói</a></li>
+              <li><a href="sikeres.html"><b>Legsikeresebb autók</b></a></li>
+              <li><a href="hasznalat.html">Autók használata</a></li>
+              <li><a href="drift.html">Driftelés</a></li>
+              <li><a href="import.html">Importálás</a></li>
+              <li><a href="napjaink.html">Napjainkban</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="doboz">
+            <div class="kartya">
+              <img src="img/s15.jpg" alt="Nissan s15 Silvia">
+              <p id="s15">Nissan s15 Silvia specR 250 Lóerő</p>        
+                    <button onclick="s15()">További adatok</button>
+                    <script>
+                        function s15() {
+                          const Silvia = document.getElementById("s15");                        
+                          Silvia.innerText ="Az S15 Silvia a Nissan hátsókerék-hajtású sportkupéja, amelyet 1999 és 2002 között gyártottak, főként a japán piacra. Az SR20DET névre hallgató 2.0 literes, turbós, soros 4 hengeres motorjával készült, ami kb. 250 lóerőt tudott, és kiváló alap volt drift- és tuningautóknak Kompakt, könnyű kasztnija, éles kormányzása és sportos futóműve miatt igazi pilótaautónak számít. Az S15 a Silvia-széria csúcsa, és máig népszerű a driftkultúrában, különösen az Initial D és a profi D1 versenysorozatok miatt.";                   
+                        }
+                      </script>                       
+            </div>
+            <div class="kartya">
+              <img src="img/nissan-gt-r-r34-vspec.jpg" alt="Nissan r34 Skyline">
+              <p id="Skyline">Nissan GT-R R34 280 Lóerő</p>        
+                    <button onclick="Skyline()">További adatok</button>
+                    <script>
+                        function Skyline() {
+                          const Skyline = document.getElementById("Skyline");                        
+                          Skyline.innerText =" Az R34 Nissan Skyline GT-R a japán autógyártás egyik csúcsa, 1999 és 2002 között készült. Szíve a legendás RB26DETT, egy 2.6 literes, soros 6 hengeres, duplaturbós motor, ami gyárilag kb. 280 lóerőt tudott, de valójában ennél jóval többre képes, akár 600-1000+ lóerő is kihozható belőle.  Az R34 egyik legnagyobb fegyvere az ATTESA E-TS Pro összkerékhajtási rendszer és a Super HICAS aktív hátsókerék-kormányzás, ami kiváló tapadást és kanyarsebességet biztosít. Emellett digitális kijelzős műszerfala (MFD) is különleges, ami valós időben mutatja a motor- és turbóadatokat.";                   
+                        }
+                      </script>
+            </div>
+            <div class="kartya">
+              <img src="img/supra.jpg" alt="Toyota Supra mk4">
+              <p id="supra">Toyota Supra mk4 280 Lóerő</p>        
+              <button onclick="supra()">További adatok</button>
+              <script>
+                  function supra() {
+                    const supra = document.getElementById("supra");                        
+                    supra.innerText ="Az MK4 Toyota Supra, hivatalosan Toyota Supra A80, 1993 és 2002 között készült, és mára legendás státuszba került az autós világban. Legismertebb változata a 3.0 literes, soros 6 hengeres, 2JZ-GTE turbómotorral szerelt verzió, amely gyárilag kb. 280-330 lóerőt tudott, de hatalmas tuningpotenciálja miatt akár 1000+ lóerőre is építhető.";                   
+                  }
+                </script>
+            </div>
+            <div class="kartya">
+              <img src="img/rx7.jpg" alt="Mazda RX7">
+              <p id="rx7">Mazda RX7 255 lóerő</p>        
+              <button onclick="rx7()">További adatok</button>
+              <script>
+                  function rx7() {
+                    const rx7 = document.getElementById("rx7");                        
+                    rx7.innerText ="A Mazda RX-7, különösen a FD3S generáció (1992-2002), a japán sportautók egyik legkülönlegesebb darabja. Legnagyobb különlegessége a Wankel-rotációs motor - az RX-7 egy 1.3 literes, kétrotoros, duplaturbós 13B-REW motort használ, ami kb. 255-280 lóerőt tudott gyárilag.Hihetetlenül könnyű és kiegyensúlyozott, kiváló súlyelosztással, ezért vezetési élményben a csúcson van - sokan a legjobban vezethető JDM autónak tartják. Alacsony súlya (~1250 kg), közvetlen kormányzása és agilis futóműve miatt főleg kanyargós pályákon vagy driftben tündököl.";                   
+                  }
+                </script>
+            </div>
+            <div class="kartya">
+                <img src="img/Mitsubishi-Lancer-Evo-VI.jpg" alt="Mitsubishi Evo lancer 6">
+                <p id="evo">Mitsubishi Lancer Evolution VI 280 Lóerő</p>        
+                <button onclick="evo()">További adatok</button>
+                <script>
+                    function evo() {
+                      const evo = document.getElementById("evo");                        
+                      evo.innerText ="A Mitsubishi Lancer Evolution VI (vagy Evo 6) egy ikonikus összkerékhajtású japán rali-legendás sportautó, amelyet 1999 és 2001 között gyártottak. Szíve egy 2.0 literes, soros 4 hengeres, turbós motor (4G63T), ami gyárilag kb. 280 lóerőt tudott - valójában kissé többet. Az Evo 6-ot kifejezetten a WRC (rali-világbajnokság) ihlette: könnyű karosszéria, masszív aerodinamikai csomag (nagy hátsó szárny, agresszív lökhárítók), valamint aktív összkerékhajtás és aktív középső differenciálzár (AYC) tette rendkívül hatékonnyá minden útfelületen.";                   
+                    }
+                  </script>
+              </div>
+              <div class="kartya">
+                <img src="img/civic.jpg" alt="Honda civic">    
+                <p id="civic">Honda Civic 6gen typeR 160 Lóerő</p>        
+                <button onclick="civic()">További adatok</button>
+                <script>
+                    function civic() {
+                      const civic = document.getElementById("civic");                        
+                      civic.innerText ="Az első hivatalos Civic Type R a 6. generációs Civic EK9 (1997-2000) volt. Az EK9 viszont már Type R név alatt futott, és igazi legendává vált a hot hatch kategóriában. Amit sokan „5th gen Type R”-ként emlegetnek, az valójában egy Civic EG6 (VTi vagy SiR) alapú, tuningolt változat, amely a B16A2 vagy B16A motort kapta - egy 1.6 literes VTEC szívómotor kb. 160 lóerővel, 8.000 feletti fordulattal. Ez a motor és a pehelysúly (~1000 kg alatt) miatt elképesztő pörgősséget és élményt nyújtott.";                   
+                    }
+                  </script>
+              </div>
+          </div>        
+    </main>
+</body>
+</html>
