@@ -1,34 +1,30 @@
-Japán autók kultúrája
+# Japanese Car Culture
 
-Többoldalas, statikus weboldal a japán autókultúráról. Első féléves egyetemi projekt, amelyet egyedül készítettem HTML és CSS segítségével.
+A multi-page static website about Japanese car culture. First-semester university project, built on my own with HTML and CSS.
 
-Miről szól az oldal?
-Története: a japán autógyártás a második világháború után, a tömeggyártás és a márkák (Toyota, Nissan, Honda, Mazda) világsikere az 1960-as és 70-es években.
-Tuningkultúra: az 1990-es évek ikonikus autói (Nissan Skyline GT-R, Toyota Supra, Mazda RX-7) és a jellemző átalakítások.
-Driftelés: a sportág japán eredete és a hegyi utak szerepe.
-Piac és import: az autópiac meghatározó szereplői, a legsikeresebb modellek, az importálás kérdései és a mai helyzet.
-Oldalak
-Fájl	Oldal
-Főoldal.html	Kezdőlap
-piac.html	Autópiac uralkodói
-sikeres.html	Legsikeresebb autók
-hasznalat.html	Autók használata
-drift.html	Driftelés
-import.html	Importálás
-napjaink.html	Napjainkban
+## What is the site about?
 
-A CSS/ mappa a stíluslapokat, az img/ mappa a képeket tartalmazza.
+- **History:** Japanese car manufacturing after World War II, the shift to mass production and the worldwide success of brands such as Toyota, Nissan, Honda and Mazda in the 1960s and 70s.
+- **Tuning culture:** iconic cars of the 1990s (Nissan Skyline GT-R, Toyota Supra, Mazda RX-7) and typical modifications.
+- **Drifting:** the origins of the sport in Japan and the role of mountain roads.
+- **Market and import:** the leading players on the car market, the most successful models, importing cars and the situation today.
 
-Technológiák
-HTML5
-CSS3
-JavaScript nélkül, minden oldal statikus
-Megnyitás
+## Pages
+The `CSS/` folder contains the stylesheets and the `img/` folder contains the images. The website text itself is in Hungarian.
 
-Töltsd le a repót (vagy klónozd), és nyisd meg a Főoldal.html fájlt egy böngészőben. Nincs szükség telepítésre vagy szerverre.
+## Technologies
 
-bash
+- HTML5
+- CSS3
+- No JavaScript – every page is static
+
+## Opening the site
+
+Download (or clone) the repository and open `Főoldal.html` in a browser. No installation or server is needed.
+
+```bash
 git clone https://github.com/csepike/weblap.git
+```
 
-Készítő:
-Cséplő Bálint Gábor – github.com/csepike
+## Author:
+Cséplő Bálint Gábor – [github.com/csepike](https://github.com/csepike)
