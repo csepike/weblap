@@ -27,4 +27,4 @@ git clone https://github.com/csepike/weblap.git
 ```
 
 ## Author:
-Cséplő Bálint Gábor – [github.com/csepike](https://github.com/csepike)
+Csepike – [github.com/csepike](https://github.com/csepike)
